@@ -1,6 +1,6 @@
-# 🔐 Update a File Through a Python Algorithm
+#  Update a File Through a Python Algorithm
 
-## 📌 Project Overview
+##  Project Overview
 
 In this project, I used **Python to automate the process of removing unauthorized IP addresses from an allow list**.
 
@@ -20,7 +20,7 @@ This allowed me to automate a task that would otherwise require manually editing
 
 ---
 
-# 🐍 Python Algorithm
+#  Python Algorithm
 
 The overall process looks like this:
 
@@ -51,7 +51,7 @@ allow_list.txt
 
 ---
 
-# 1️⃣ Open the Allow List File
+# 1️ Open the Allow List File
 
 The first step was to open the `allow_list.txt` file so I could access the IP addresses stored inside it.
 
@@ -79,7 +79,7 @@ The `with` statement also manages the file resource automatically and closes the
 ---
 
 
-# 2️⃣ Read the File Contents
+# 2️ Read the File Contents
 
 After opening the file, I needed to read its contents.
 
@@ -107,7 +107,7 @@ The `.read()` method allowed me to access the information so I could manipulate 
 
 ---
 
-# 3️⃣ Convert the String Into a List
+# 3️ Convert the String Into a List
 
 To remove individual IP addresses, I needed to convert the string into a list.
 
@@ -135,7 +135,7 @@ Converting the data into a list makes it easier to work with and remove individu
 
 ---
 
-# 4️⃣ Iterate Through the Remove List
+# 4️ Iterate Through the Remove List
 
 Next, I needed to check the IP addresses contained in `remove_list`.
 
@@ -162,7 +162,7 @@ Python processes each IP address individually and checks whether it needs to be 
 
 ---
 
-# 5️⃣ Remove IP Addresses From the Allow List
+# 5️ Remove IP Addresses From the Allow List
 
 I then needed to remove any IP address from `ip_addresses` that was also found in `remove_list`.
 
@@ -185,7 +185,7 @@ This allows the algorithm to automatically remove IP addresses that should no lo
 
 ---
 
-# 6️⃣ Convert the Updated List Back Into a String
+# 6️ Convert the Updated List Back Into a String
 
 After removing the unauthorized IP addresses, I needed to convert the list back into a string before writing it back to the file.
 
@@ -229,7 +229,7 @@ This puts the data back into the format used by `allow_list.txt`.
 
 ---
 
-# 7️⃣ Write the Updated List Back to the File
+# 7️ Write the Updated List Back to the File
 
 The final step was to update `allow_list.txt` with the revised list of IP addresses.
 
@@ -247,7 +247,7 @@ The final result is an updated allow list that no longer contains the IP address
 
 ---
 
-# 🔄 Complete Algorithm
+# Complete Algorithm
 
 The complete Python logic looks like this:
 
@@ -271,7 +271,7 @@ with open(import_file, "w") as file:
 
 ---
 
-# 🧠 Python Concepts Used
+# Python Concepts Used
 
 | Python Concept | Purpose |
 |---|---|
@@ -288,7 +288,7 @@ with open(import_file, "w") as file:
 
 ---
 
-# 🔐 Security Application
+# Security Application
 
 This project demonstrates how Python can be used to **automate security-related tasks**.
 
@@ -304,7 +304,7 @@ This type of automation can help:
 
 ---
 
-# ✅ Summary
+# Summary
 
 In this project, I created a Python algorithm that automatically updates an IP allow list.
 
@@ -318,6 +318,6 @@ This project gave me practical experience using **Python file handling, lists, l
 
 ---
 
-## 🛠️ Skills Demonstrated
+## Skills Demonstrated
 
 **Python · File Handling · Automation · List Manipulation · Loops · Conditional Statements · String Manipulation · Access Control · Security Automation**
